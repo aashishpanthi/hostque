@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./images/hosting-services.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/common.css" />
+    <link rel="stylesheet" href="./styles/login.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <title>Sign in- Hostque</title>
+  </head>
+  <body>
+    <section>
+      <nav>
+        <div class="brand">
+          <img src="./images/hosting-services.png" alt="hosting" />
+          <a href="/">Hostque</a>
+        </div>
+
+        <i class="fa fa-bars" aria-hidden="true"></i>
+
+        <ul>
+          <i class="fa fa-times" aria-hidden="true"></i>
+          <li><a href="/">Home</a></li>
+          <li><a href="./pricing.html">Pricing</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="./login.html">Sign in</a></li>
+        </ul>
+      </nav>
+
+      <div class="login">
+        <h1>Sign in</h1>
+        <form action="">
+
+          <div class="form-item">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          
+          <div class="form-item">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+
+          <div class="form-item">
+            <input type="checkbox" id="remember" name="remember" />
+            <label for="remember">Remember me</label>
+          </div>
+
+          <button type="submit">Sign in</button>
+        </form>
+      </div>
+    </section>
+
+    <div class="copyright">
+      &copy; All rights reserved by Hostque && Made with &hearts; by Aashish
+    </div>
+
+    <script src="./js/navbar.js"></script>
+  </body>
+</html>
